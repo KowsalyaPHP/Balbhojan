@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <!-- Includes -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Balbhojan</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/example.css" />
+    <script src="js/loader.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="mb-5" w3-include-html="header.html"></div>
+    <div class="row d-none d-md-block">&nbsp;</div>
+
+    <!-- Section for Make an Impact starts here -->
+    <div class="flex-row d-flex justify-content-center col mb-4">
+        <img src="images/MakeAnImpact_HandHoldingDonate.jpg"
+            style="background-repeat: no-repeat; object-fit:cover; width:90vw; height:25vw;" />
+    </div>
+
+    <div class="flex-row bbtitle1 mt-2 text-center">HELP A CHILD IN DISTRESS-NOW!</div>
+
+    <div class="row">
+        <div class="col-md-2 d-none d-md-block">&nbsp;</div>
+        <div class="col-md-3 mt-2 justify-content-center text-center">
+            <img class="w-50" src="images/donateiconlarge.jpg" style="background-repeat: no-repeat;">
+        </div>
+        <div class="col-md-5 text-justify mt-4 px-5" style="font-size:18px">
+            You can help by donating money for the
+            child’s education (fees, books, gadgets), and living expenses (food, clothing
+            or medical expenses).
+            <br />
+            <br />As per the provisions of section 80G of Income-tax Act, 1961, all your donations are eligible for tax deduction.
+            <br />
+            <br />Every request is verified by our partners. In addition, you get a report on the utilization of your
+            donation
+            and progress of the child.
+        </div>
+        <div class="col-md-2 d-none d-md-block">&nbsp;</div>
+    </div>
+
+    <div class="row">&nbsp;</div>
+    <hr>
+    <div class="flex-row">
+
+        <iframe id="subframe" src="https://balbhojan.org/Home/HelpAChild" frameborder="0" width="100%"
+            style="overflow-y: visible;" onload="hideelements('subframe',false)">
+        </iframe>
+
+    </div>
+
+
+    <!-- Section for the Make An Impact ends here -->
+
+    <!-- Footer -->
+    <div w3-include-html="footer.html"></div>
+
+    <script>includeHTML();</script>
+</body>
+
+</html>

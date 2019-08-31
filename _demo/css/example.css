@@ -1,0 +1,563 @@
+@font-face {
+    font-family: 'Arsenal';
+    src: url('font/Arsenal-Regular.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Arsenal';
+    font-weight: bold;
+    src: url('font/Arsenal-Bold.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Huge';
+    font-weight: bold;
+    src: url('font/Huge.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'MyradArabic';
+    src: url('font/MyriadArabic-Regular.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'MyradArabic';
+    font-weight: bold;
+    src: url('font/MyriadArabic-Bold.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'MyradArabic';
+    font-style: italic;
+    src: url('font/MyriadArabic-It.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('font/Arial.ttf') format('truetype')
+}
+
+/* Base Text Styling*/
+.body {
+    font-family: 'Arsenal', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+/* Purple Main Heading */
+.bbtitle1 {
+    font-family: 'Huge', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #ba499b;
+    line-height: 1.0;
+}
+
+.bbtitlelist {
+    font-family: 'Huge', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #ba499b;
+    line-height: 1.0;
+}
+
+.bbtitleWhite {
+    font-family: 'Huge', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    line-height: 1.0;
+}
+
+.bbtitleBlack {
+    font-family: 'Huge', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+    line-height: 1.0;
+}
+
+/* Simple Heading Black */
+.bbtitle2 {
+    font-family: 'Arsenal', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+/* Regular Text throughout the site */
+.bbtitle3 {
+    font-family: 'Arsenal', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #888888;
+}
+
+.white-quote {
+    color: white;
+}
+
+.light-quote {
+    color: gray;
+}
+
+.dark-quote {
+    color: black;
+}
+/* End Base Text Styling*/
+
+/*
+        .body {
+        font-family: 'Arsenal', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        color: black;
+    }
+
+.bbtitle1 {
+    font-family: 'Huge', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ba499b;
+    line-height: 1.0;
+}
+
+.bbtitlelist {
+    font-family: 'Huge', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #ba499b;
+    line-height: 1.0;
+}
+
+.bbtitleWhite {
+    font-family: 'Huge', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    line-height: 1.0;
+}
+
+.bbtitleBlack {
+    font-family: 'Huge', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    line-height: 1.0;
+}
+
+.bbtitle2 {
+    font-family: 'Arsenal', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.bbtitle3 {
+    font-family: 'Arsenal', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #888888;
+}
+
+.white-quote {
+    font-size: 20px;
+    color: white;
+}
+
+.light-quote {
+    font-size: 20px;
+    color: gray;
+}
+
+.dark-quote {
+    font-size: 20px;
+    color: black;
+}
+
+*/
+
+/* Large Screens */
+@media (min-width:1199px) {
+    .body {
+        font-size: 20px;
+    }
+
+    /* Purple Main Heading */
+    .bbtitle1 {
+        font-size: 40px;
+    }
+
+    .bbtitleWhite {
+        font-size: 40px;
+    }
+
+    .bbtitleBlack {
+        font-size: 40px;
+    }
+
+    /* Simple Heading Black */
+    .bbtitle2 {
+        font-size: 30px;
+    }
+
+    /* Regular Text throughout the site */
+    .bbtitle3 {
+        font-size: 25px;
+    }
+
+    .white-quote {
+        font-size: 20px;
+    }
+
+    .light-quote {
+        font-size: 20px;
+    }
+
+    .dark-quote {
+        font-size: 20px;
+    }
+}
+
+/* Medium Screens */
+@media (min-width:768px) and (max-width:1199px) {
+    .body {
+        font-size: 15px;
+    }
+
+    /* Purple Main Heading */
+    .bbtitle1 {
+        font-size: 30px;
+    }
+
+    .bbtitleWhite {
+        font-size: 30px;
+    }
+
+    .bbtitleBlack {
+        font-size: 30px;
+    }
+
+    /* Simple Heading Black */
+    .bbtitle2 {
+        font-size: 25px;
+    }
+
+    /* Regular Text throughout the site */
+    .bbtitle3 {
+        font-size: 15px;
+    }
+
+    .white-quote {
+        font-size: 15px;
+    }
+
+    .light-quote {
+        font-size: 15px;
+    }
+
+    .dark-quote {
+        font-size: 15px;
+    }
+}
+
+/* Small Screens */
+@media (max-width:768px) {
+    .body {
+        font-size: 12px;
+    }
+
+    /* Purple Main Heading */
+    .bbtitle1 {
+        font-size: 20px;
+    }
+
+    .bbtitleWhite {
+        font-size: 20px;
+    }
+
+    .bbtitleBlack {
+        font-size: 20px;
+    }
+
+    /* Simple Heading Black */
+    .bbtitle2 {
+        font-size: 18px;
+    }
+
+    /* Regular Text throughout the site */
+    .bbtitle3 {
+        font-size: 12px;
+    }
+
+    .white-quote {
+        font-size: 12px;
+    }
+
+    .light-quote {
+        font-size: 12px;
+    }
+
+    .dark-quote {
+        font-size: 12px;
+    }
+}
+
+.mission-gradient {
+    background: #e5e9f5;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #e5e9f5 0%, #e5e9f5 50%, #edeffe 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #e5e9f5 0%, #e5e9f5 50%, #edeffe 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #e5e9f5 0%, #e5e9f5 50%, #edeffe 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e9f5', endColorstr='#edeffe', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+
+img {
+    width: 100%;
+}
+
+/* Lists Styling for The Goodness Movement page */
+
+.list-centered {
+    text-align: left;
+    color: black;
+    list-style-position: inside;
+    padding: 5px 10px;
+    list-style: none;
+}
+
+    .list-centered li {
+        padding-top: 15px;
+    }
+
+        .list-centered li::before {
+            content: "\2022";
+            color: #ba499b;
+            font-size: 25px;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em
+        }
+
+/* End of Lists Styling */
+
+#navbar {
+    transition: top 1s;
+    z-index: 100;
+}
+
+@media (max-width: 1199px) {
+    #navbar {
+        background: rgba(254, 254, 254, 1) !important;
+        background: -moz-linear-gradient(top, rgba(254, 254, 254, 1) 0%, rgba(209, 209, 209, 1) 24%, rgba(209, 209, 209, 1) 76%, rgba(219, 219, 219, 1) 100%) !important;
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254, 254, 254, 1)), color-stop(24%, rgba(209, 209, 209, 1)), color-stop(76%, rgba(209, 209, 209, 1)), color-stop(100%, rgba(219, 219, 219, 1))) !important;
+        background: -webkit-linear-gradient(top, rgba(254, 254, 254, 1) 0%, rgba(209, 209, 209, 1) 24%, rgba(209, 209, 209, 1) 76%, rgba(219, 219, 219, 1) 100%) !important;
+        background: -o-linear-gradient(top, rgba(254, 254, 254, 1) 0%, rgba(209, 209, 209, 1) 24%, rgba(209, 209, 209, 1) 76%, rgba(219, 219, 219, 1) 100%) !important;
+        background: -ms-linear-gradient(top, rgba(254, 254, 254, 1) 0%, rgba(209, 209, 209, 1) 24%, rgba(209, 209, 209, 1) 76%, rgba(219, 219, 219, 1) 100%) !important;
+        background: linear-gradient(to bottom, rgba(254, 254, 254, 1) 0%, rgba(209, 209, 209, 1) 24%, rgba(209, 209, 209, 1) 76%, rgba(219, 219, 219, 1) 100%) !important;
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#dbdbdb', GradientType=0);
+    }
+
+    .bg-content {
+        background-color: whitesmoke;
+        opacity: 0.6;
+        font-size: 14px !important;
+        padding: 10px !important;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bg-content {
+        background-color: whitesmoke;
+        opacity: 0.8;
+        font-size: 12px !important;
+        padding: 10px !important;
+        border-radius: 10px;
+    }
+}
+
+.nav a {
+    font-size: 1.0em !important;
+}
+
+/* Make Drop Down Menu Parent Clickable */
+
+#ddown {
+    display: block;
+    content: "\f105";
+    font-family: 'FontAwesome';
+    margin-left: -18px;
+    position: absolute;
+    font-weight: 300;
+}
+
+@media only screen and (min-width:1200px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-submenu {
+        position: relative !important;
+    }
+
+        .dropdown-submenu > .dropdown-menu {
+            top: 0 !important;
+            left: 100% !important;
+            margin-top: -6px !important;
+            margin-left: -1px !important;
+            border-radius: 0 !important;
+        }
+
+        .dropdown-submenu:hover > .dropdown-menu {
+            display: block !important;
+        }
+
+        .dropdown-submenu > a:after {
+            display: block;
+            content: "\f105";
+            font-family: 'FontAwesome';
+            margin-top: -18px;
+            right: 15px;
+            position: absolute;
+            font-weight: 300;
+        }
+}
+
+dl {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 5px;
+    margin: 0;
+}
+
+dt {
+    float: left;
+    width: 20%;
+    padding: 0;
+    margin: 0;
+}
+
+dd {
+    float: left;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-linkedin {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 25px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fill {
+    display: block;
+    width: 25%;
+    min-height: 100px;
+    object-fit: contain;
+}
+
+/* VISION ROTATION */
+.rotate {
+    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+}
+/* END VISION ROTATION */
+
+/* Testimonial Start */
+.testimonial {
+    color: #808080;
+    position: relative;
+    padding: 15px;
+    background: #f1f1f1;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+    .testimonial::after {
+        content: "";
+        width: 15px;
+        height: 15px;
+        display: block;
+        background: #f1f1f1;
+        border: 1px solid #efefef;
+        border-width: 0 0 1px 1px;
+        position: absolute;
+        bottom: -8px;
+        left: 70px;
+        transform: rotateZ(-46deg);
+    }
+
+.testimonial-image {
+    width: 75px;
+    height: 75px;
+    display: block;
+    border-radius: 50%;
+}
+
+.overview b {
+    color: #1abc9c;
+}
+/* Testimonial End */
+
+/* NOTE */
+@media (max-width: 1199px) {
+    .note {
+        position: relative;
+        width: 95%;
+        padding: 1em 1.5em;
+        margin: 2em auto;
+        color: black;
+        background: rgba(219, 219, 219, 0.8);
+        overflow: hidden;
+    }
+
+        .note:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-width: 0 16px 16px 0;
+            border-style: solid;
+            border-color: #fff #fff gray gray;
+            background: gray;
+            -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+            -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+            box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+            /* Firefox 3.0 damage limitation */
+            display: block;
+            width: 0;
+        }
+
+        .note.rounded {
+            -moz-border-radius: 5px 0 5px 5px;
+            border-radius: 5px 0 5px 5px;
+        }
+
+            .note.rounded:before {
+                border-width: 8px;
+                border-color: #fff #fff transparent transparent;
+                -moz-border-radius: 0 0 0 5px;
+                border-radius: 0 0 0 5px;
+            }
+}
+/* NOTE END */
