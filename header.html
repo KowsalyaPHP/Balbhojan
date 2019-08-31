@@ -1,0 +1,103 @@
+<style>
+.menudisplay a{
+    color:#ba499b !important;
+}
+.menudisplay a:hover { 
+  background-color: #ba499b;
+  color:#ffffff !important;
+}
+
+</style>
+
+<div class="container-fluid">
+    <nav id="navbar" class="navbar navbar-expand-xl fixed-top bg-white navbar-light p-0">
+        <button class="navbar-toggler hidden-xl-up pull-right" type="button" data-toggle="collapse"
+            data-target="#navbarTogglerB" aria-controls="navbarTogglerB" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="sr-only">Toggle Menubar</span>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand logo p-0 pt-1" href="index.html">
+            <img src="images/logo.png" style="width:175px; object-fit:scale-down;" alt="Balbhojan">
+        </a>
+
+        <div class="collapse navbar-collapse navbar-toggleable-xl" id="navbarTogglerB">
+            <ul class="nav navbar-nav menudisplay">
+                <li class=" nav-item" >
+                    <a class="nav-link" href="thegoodnessmovement.html" >The Goodness Movement</a>
+                </li>
+                <li class=" nav-item" >
+                    <a class="nav-link" href="ourpartners.html">Our Partners</a>
+                </li>
+                <li class=" nav-item" >
+                    <a class="nav-link" href="ourapproach.html">Our Approach</a>
+                </li>
+                <li class=" nav-item">
+                    <a class="nav-link" href="theneed.html">The Need</a>
+                </li>
+                <li class="nav-item dropdown" >
+                    <a class="nav-link dropdown-toggle" data-hover="dropdown"
+                    data-toggle="dropdown" class=" nav-link" href="makeanimpact.html">Make an Impact</a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="donate.html">Donate</a>
+                        </li>
+                    </ul>
+                </li>
+                
+               <!-- <li class="nav-item" >
+                    <a class=" nav-link" href="makeanimpact.html">Make an Impact</a>
+                </li>
+                <li class=" nav-item dropdown" style="margin-right:12px;">
+                    <a id="ddown" class="nav-link dropdown-toggle" id="navbardrop" data-hover="dropdown"
+                        data-toggle="dropdown">
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="donate.html">Donate</a>
+                        </li>
+                    </ul>
+                </li>-->
+
+                <li class=" nav-item" >
+                    <a class="nav-link" href="thefuturechamps.html">The Future Champs</a>
+                </li>
+                <li class=" nav-item">
+                    <a class="nav-link" href="contactus.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="btn-group pull-right ml-auto">
+            <a class="btn btn-danger btn-sm" href="donate.html" role="button">
+                DONATE
+            </a>
+            <a class="btn btn-sm btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" role="button">
+                <span class="sr-only">Toggle Dropdown</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+                <a class="nav-link py-0" href="loginsignup.html">Login</a>
+                <a class="nav-link py-0" href="loginsignup.html">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!-- <script>
+    jQuery(function ($) {
+        $('.navbar .dropdown-toggle').hover(function () {
+            $(this).find('.navbardrop').first().stop(true, true).delay(250).slideDown();
+
+        }, function () {
+            $(this).find('.navbardrop').first().stop(true, true).delay(100).slideUp();
+
+        });
+
+        $('.navbar .dropdown > a').click(function () {
+            location.href = this.href;
+        });
+
+    });
+</script> -->
